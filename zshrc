@@ -100,14 +100,17 @@ setprompt () {
 
   PROMPT='$PR_SET_CHARSET$PR_STITLE${(e)PR_TITLEBAR}\
 $PR_CYAN$PR_SHIFT_IN$PR_ULCORNER$PR_CYAN$PR_HBAR$PR_SHIFT_OUT(\
-$PR_GREEN%$PR_PWDLEN<...<%~%<<\
+$PR_RED%m$PR_CYAN:$PR_GREEN%$PR_PWDLEN<...<%~%<<\
 $PR_CYAN)$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_HBAR${(e)PR_FILLBAR}$PR_CYAN$PR_HBAR$PR_SHIFT_OUT
 $PR_CYAN$PR_SHIFT_IN$PR_LLCORNER$PR_CYAN$PR_HBAR$PR_SHIFT_OUT\
 ${(e)PR_APM}$PR_GREEN$(git_prompt)\
-$PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT◊\
+$PR_CYAN$PR_SHIFT_IN $PR_SHIFT_OUT>\
 $PR_NO_COLOUR '
 
-  # RPROMPT=' $PR_CYAN◊$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_HBAR$PR_SHIFT_OUT\
+#   %m
+
+# 
+#   RPROMPT=' $PR_CYAN◊$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_HBAR$PR_SHIFT_OUT\
 # ($PR_GREEN%W$PR_CYAN)$PR_SHIFT_IN$PR_HBAR$PR_CYAN$PR_LRCORNER$PR_SHIFT_OUT$PR_NO_COLOUR'
 
   PS2='$PR_CYAN$PR_SHIFT_IN$PR_HBAR$PR_SHIFT_OUT\
@@ -163,7 +166,7 @@ zstyle ':completion:*:processes-names' command 'ps axho command'
 ###########
 #commands
 alias ack='ack'
-alias s='screen'
+alias s='screen -U'
 alias h='history'
 alias o='open'
 alias vim='nocorrect vim'

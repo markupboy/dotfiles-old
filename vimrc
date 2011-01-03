@@ -7,9 +7,15 @@
 
 if has("terminfo")
   set t_Co=16
-  set t_ABet t_AFe
+  set t_AB=[%?%p1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
+  set t_AF=[%?%p1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
+else
   set t_Co=16
-  set t_Sfet t_Sbyntax on
+  set t_Sf=[3%dm
+  set t_Sb=[4%dm
+endif
+
+syntax on
 
 " Everything from here on down is optional
 " These colors are examples of what is possible
@@ -70,4 +76,3 @@ hi Type guifg=#2BEB7E gui=none
 hi pythonBuiltin guifg=#0096AC gui=none
 
 "#### end color settings #############
-
