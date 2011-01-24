@@ -9,7 +9,6 @@ startup_message off
 screen -t project 0 
 screen -t local 1 
 screen -t remote 2 
-screen -t irc 3 irssi
 
 hardstatus alwayslastline                                        
 hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c %]%{W}'
