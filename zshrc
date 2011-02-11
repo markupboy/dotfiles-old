@@ -184,6 +184,7 @@ alias ip='getIP'
 alias c='clear'
 alias getpath='pwd|tr -d "\r\n"|pbcopy'
 alias ping='ping -oq'
+alias top='top -o cpu'
 
 #git
 alias dcommit='git svn dcommit'
