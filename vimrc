@@ -76,3 +76,10 @@ hi Type guifg=#2BEB7E gui=none
 hi pythonBuiltin guifg=#0096AC gui=none
 
 "#### end color settings #############
+
+"Disable toolbar if available
+
+if has("gui_running")
+	set guioptions-=T
+	set guifont=Anonymous\ Pro:h14
+endif
