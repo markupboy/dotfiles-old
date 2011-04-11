@@ -37,43 +37,45 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "inspiration-805025"
+color handcrafted 
 
-if version >= 700
-  hi CursorLine     guibg=#000300
-  hi CursorColumn   guibg=#000300
-  hi MatchParen     guifg=#1B77FF guibg=#000300 gui=bold
-  hi Pmenu          guifg=#FFFFFF guibg=#323232
-  hi PmenuSel       guifg=#FFFFFF guibg=#59BEFF
-endif
-
-" Background and menu colors
-hi Cursor           guifg=NONE guibg=#FFFFFF gui=none
-hi Normal           guifg=#FFFFFF guibg=#000300 gui=none
-hi NonText          guifg=#FFFFFF guibg=#0F120F gui=none
-hi LineNr           guifg=#FFFFFF guibg=#191C19 gui=none
-hi Normal           guifg=#FFFFFF guibg=#000300 gui=none
-hi StatusLine       guifg=#FFFFFF guibg=#112833 gui=italic
-hi StatusLineNC     guifg=#FFFFFF guibg=#282B28 gui=none
-hi VertSplit        guifg=#FFFFFF guibg=#191C19 gui=none
-hi Folded           guifg=#FFFFFF guibg=#000300 gui=none
-hi Title            guifg=#59BEFF guibg=NONE	gui=bold
-hi Visual           guifg=#1B77FF guibg=#0F120F gui=none
-hi SpecialKey       guifg=#819A45 guibg=#0F120F gui=none
-
-" Syntax highlighting
-hi Comment guifg=#86b2c1 guibg=#3d535b gui=none
-hi Constant guifg=#dd7a7a gui=none
-hi Number guifg=#e5b25b gui=none
-hi Identifier guifg=#0096AC gui=none
-hi Statement guifg=#1B77FF gui=none
-hi Function guifg=#e5b25b gui=none
-hi Special guifg=#50FFFF gui=none
-hi PreProc guifg=#50FFFF gui=none
-hi Keyword guifg=#eb525b gui=none
-hi String guifg=#bae176 gui=none
-hi Type guifg=#2BEB7E gui=none
-hi pythonBuiltin guifg=#0096AC gui=none
+" let colors_name = "inspiration-805025"
+" 
+" if version >= 700
+"   hi CursorLine     guibg=#000300
+"   hi CursorColumn   guibg=#000300
+"   hi MatchParen     guifg=#1B77FF guibg=#000300 gui=bold
+"   hi Pmenu          guifg=#FFFFFF guibg=#323232
+"   hi PmenuSel       guifg=#FFFFFF guibg=#59BEFF
+" endif
+" 
+" " Background and menu colors
+" hi Cursor           guifg=NONE guibg=#FFFFFF gui=none
+" hi Normal           guifg=#FFFFFF guibg=#000300 gui=none
+" hi NonText          guifg=#FFFFFF guibg=#0F120F gui=none
+" hi LineNr           guifg=#FFFFFF guibg=#191C19 gui=none
+" hi Normal           guifg=#FFFFFF guibg=#000300 gui=none
+" hi StatusLine       guifg=#FFFFFF guibg=#112833 gui=italic
+" hi StatusLineNC     guifg=#FFFFFF guibg=#282B28 gui=none
+" hi VertSplit        guifg=#FFFFFF guibg=#191C19 gui=none
+" hi Folded           guifg=#FFFFFF guibg=#000300 gui=none
+" hi Title            guifg=#59BEFF guibg=NONE	gui=bold
+" hi Visual           guifg=#1B77FF guibg=#0F120F gui=none
+" hi SpecialKey       guifg=#819A45 guibg=#0F120F gui=none
+" 
+" " Syntax highlighting
+" hi Comment guifg=#86b2c1 guibg=#3d535b gui=none
+" hi Constant guifg=#dd7a7a gui=none
+" hi Number guifg=#e5b25b gui=none
+" hi Identifier guifg=#0096AC gui=none
+" hi Statement guifg=#1B77FF gui=none
+" hi Function guifg=#e5b25b gui=none
+" hi Special guifg=#50FFFF gui=none
+" hi PreProc guifg=#50FFFF gui=none
+" hi Keyword guifg=#eb525b gui=none
+" hi String guifg=#bae176 gui=none
+" hi Type guifg=#2BEB7E gui=none
+" hi pythonBuiltin guifg=#0096AC gui=none
 
 "#### end color settings #############
 
