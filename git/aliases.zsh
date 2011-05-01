@@ -1,0 +1,22 @@
+#git svn
+alias dcommit='git svn dcommit'
+alias svnrebase='git svn rebase'
+
+#git
+alias checkout='git checkout'
+alias co='git checkout'
+alias gco='git checkout'
+alias rebase='git rebase'
+alias gr='git rebase'
+alias commit='git commit'
+alias gc='git commit'
+alias push='git push origin HEAD'
+alias gp='git push origin HEAD'
+alias pull='git pull'
+alias gl='git pull'
+alias merge='git merge'
+alias gm='git merge'
+alias status='git status -sb'
+alias gs='git status -sb'
+alias gdiff='git difftool'
+alias gd='git difftool'

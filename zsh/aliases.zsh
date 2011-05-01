@@ -25,19 +25,6 @@ alias mv='nocorrect mv -i'
 alias cp='nocorrect cp'       
 alias mkdir='nocorrect mkdir'
 
-#git
-alias dcommit='git svn dcommit'
-alias svnrebase='git svn rebase'
-alias checkout='git checkout'
-alias co='git checkout'
-alias rebase='git rebase'
-alias commit='git commit'
-alias push='git push'
-alias pull='git pull'
-alias merge='git merge'
-alias status='git status'
-alias gdiff='git difftool'
-
 #mysql
 alias mysqlstart='launchctl load -w /usr/local/Cellar/mysql/5.1.49/com.mysql.mysqld.plist'
 alias mysqlstop='launchctl unload -w /usr/local/Cellar/mysql/5.1.49/com.mysql.mysqld.plist'

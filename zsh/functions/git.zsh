@@ -1,7 +1,3 @@
-#############
-# Functions #
-#############
-
 #advanced git
 getBranch() {
 	if [[ -n "$1" ]]; then

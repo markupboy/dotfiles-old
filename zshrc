@@ -4,7 +4,7 @@
 ######################################################
 
 # shortcut to this dotfiles path is $ZSH
-export ZSH=$HOME/Dropbox/Shared\ Libraries/dotfiles/zsh
+export ZSH=$HOME/Dropbox/Shared\ Libraries/dotfiles
 
 # source every .zsh file in this rep
 for config_file ($ZSH/**/*.zsh) source $config_file
